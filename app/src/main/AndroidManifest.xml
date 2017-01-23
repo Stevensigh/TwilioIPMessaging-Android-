@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.palliassist.palliassistmobile"
+    android:versionCode="26"
+    android:versionName="1.4">
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- enable wifi state -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- android:name="com.twilio.ipmessaging.application.TwilioApplication" -->
+    <application
+        android:name=".twilio.application.TwilioApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_login">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity"/>
+        </activity>
+        <activity android:name=".EsasActivity"
+            android:label="ESAS survey"/>
+        <activity android:name=".SettingActivity"
+            android:label="Settings"/>
+        <activity android:name=".PainLocator"
+            android:label="Pain Locator"/>
+
+        <service
+            android:name="com.twilio.ipmessaging.TwilioIPMessagingClientService"
+            android:exported="false" />
+
+
+    </application>
+
+</manifest>

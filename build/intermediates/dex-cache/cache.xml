@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.0_c230a36cfe22913ca72a8cb42e9789e1579b74f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\libs\twilio-ip-messaging-android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1382e67171285d9bdd306253d7e7cf0b32bc1129">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\2\twilio-ip-messaging-android_eee0d74822a1fade3ef8e5ea1c59b25924e00e82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\libs\easyadapter-1.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a76a1f84e60d36b6c92f5eb02917f48fc8dd6bff">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\2\easyadapter-1.5.0_a7fc6f2100a8394dbb2eb1e87dd5f997dabde7f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="19f7e9ff5ee0d9c2bf9f95f0e8dea1fff8eb7a33">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bdab2871ad2a8493cfeb92973853cdbdffa32048\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.0_41b72c6efb0aeaeac8c592768a8568e22529a7c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_cececf6a601485810e2885f7b0357ba03259bcc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.0_939f0ab6d77ac90c1bb71279921619dcbc82a327\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_a1e6eeeb1dfe4cc5bb45e938662adf210da5f6c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\libs\twilio-common-android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03234c61fba14906fa514ed6b9399fe7177aa3b2">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\2\twilio-common-android_62370d69d1a11652e67aadaae89a6d97cb93bc7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7089fd022cf2347e5a3c3192e158d8cd816723b3">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_85ba8fd4d9ad4e590a2448e396ca49b3418d41aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.0_82e53857fbda8c5cc58f9981072b549d18501579\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\Steven\Documents\2016\Senior_Design\PalliAssist\PalliAssistMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.0_94aa3990989289b5aeaf650313f60bde81a5565d\classes.dex" />
+    </item>
+
+</items>

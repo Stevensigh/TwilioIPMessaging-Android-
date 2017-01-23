@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu"
+        android:layout_gravity="center"
+        android:icon="@drawable/setting_icon"
+
+        app:showAsAction="always">
+
+
+        <menu>
+            <item
+                android:id="@+id/context_return"
+                android:layout_gravity="center"
+                android:title="Home"
+                 />
+            <item
+                android:id="@+id/context_message"
+                android:layout_gravity="center"
+                android:title="@string/messaging"
+
+
+                />
+            <item
+                android:id="@+id/context_notify"
+                android:layout_gravity="center"
+                android:title="@string/notification"
+                 />
+            <item
+                android:id="@+id/context_setting"
+                android:layout_gravity="center"
+                android:title="@string/settings"
+                 />
+
+        </menu>
+    </item>
+
+    <!--could be missing android:showAsAction="never"
+        getting syntax issue -->
+
+</menu>

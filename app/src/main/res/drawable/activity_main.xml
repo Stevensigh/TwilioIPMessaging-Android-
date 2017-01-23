@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button android:id="@+id/button_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_below="@+id/button_pain"
+        android:layout_marginTop="37dp"
+        android:onClick="buttonClicked"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/button_pain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pain"
+        android:layout_marginTop="37dp"
+        android:onClick="buttonClicked"
+        android:layout_below="@+id/button_esas"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/button_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Communication"
+        android:onClick="buttonClicked"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/button_esas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESAS Survey"
+        android:onClick="buttonClicked"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/button_message"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/button_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:onClick="buttonClicked"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/button_notify"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
