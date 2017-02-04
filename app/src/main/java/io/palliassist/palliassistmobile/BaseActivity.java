@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import io.palliassist.palliassistmobile.twilio.ui.MessageActivity;
+import io.palliassist.palliassistmobile.twilio.MainChatActivity;
 
 /**
  * Created by Steven on 12/4/2016.
@@ -44,7 +44,7 @@ public class BaseActivity extends AppCompatActivity {
                 break;
 
             case R.id.context_message:
-                final Intent j = new Intent(this, MessageActivity.class);
+                final Intent j = new Intent(this, MainChatActivity.class);
                 startActivity(j);
                 finish();
                 break;

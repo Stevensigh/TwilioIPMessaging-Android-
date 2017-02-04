@@ -8,4 +8,79 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TwilioTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-nunito</item>
+    </style>
+
+    <style name="TwilioEditTextViewStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">sans-serif-nunito</item>
+    </style>
+
+    <style name="TwilioButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">sans-serif-avenir</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="LoginElementSideMargin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="LoginFormButton" parent="LoginElementSideMargin">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="LoginFormLayout">
+        <item name="android:layout_marginBottom">7dp</item>
+    </style>
+
+    <style name="LoginButton" parent="LoginFormButton">
+        <item name="android:textColor">@color/twilio_red_text</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="LoginTextEdit">
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@color/login_text_edit_background</item>
+    </style>
+
+    <style name="LoginTextEditImage">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="LoginTextView" parent="LoginElementSideMargin">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="MenuHeaderItem">
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="MenuHeader" parent="MenuHeaderItem">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
 </resources>

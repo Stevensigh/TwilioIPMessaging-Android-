@@ -6,7 +6,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import io.palliassist.palliassistmobile.twilio.ui.MessageActivity;
+import io.palliassist.palliassistmobile.twilio.MainChatActivity;
+
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -59,7 +60,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button_message:
-                final Intent i = new Intent(this, MessageActivity.class);
+                final Intent i = new Intent(this, MainChatActivity.class);
                 startActivity(i);
                 finish();
 
